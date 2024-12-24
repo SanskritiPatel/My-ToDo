@@ -1,0 +1,83 @@
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body background and font styles */
+body {
+    background: url(https://img.freepik.com/premium-photo/blank-notepad-wooden-background_121826-1014.jpg?w=740) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* Container for the todo list */
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Styling for the heading */
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+/* Styling for the form */
+form {
+    margin-bottom: 20px;
+}
+
+form input {
+    padding: 10px;
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Styling for the task list */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+ul li a {
+    margin-left: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for completed tasks */
+.completed {
+    text-decoration: line-through;
+    color: #bbb;
+}
